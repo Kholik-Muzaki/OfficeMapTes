@@ -1,12 +1,12 @@
 import './App.css'
+import Dashboard from './pages/dashboard'
+// import Dashboard from './pages/dashboard'
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Dashboard />
     </>
   )
 }
